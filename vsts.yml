@@ -95,5 +95,4 @@ steps:
   inputs:
     PathtoPublish: '$(Build.SourcesDirectory)/out'
     ArtifactName: out
-
-- task: mspremier.PostBuildCleanup.PostBuildCleanup-task.PostBuildCleanup@3
+    
