@@ -1,5 +1,7 @@
 resources:
 - repo: self
+queue:
+  name: Perf Pool - Windows
 steps:
 - bash: |
     if [ "$ELECTRON_RELEASE" == "1" ]; then
